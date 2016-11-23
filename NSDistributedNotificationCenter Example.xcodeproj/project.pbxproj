@@ -49,6 +49,7 @@
 		42CA6BAD1DE5252E0044DE0E /* NSDistributedNotificationCenter ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSDistributedNotificationCenter ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CA6BB11DE5252E0044DE0E /* NSDistributedNotificationCenter_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDistributedNotificationCenter_ExampleUITests.m; sourceTree = "<group>"; };
 		42CA6BB31DE5252E0044DE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CA6BBF1DE535620044DE0E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		42CA6B831DE5252D0044DE0E = {
 			isa = PBXGroup;
 			children = (
+				42CA6BBF1DE535620044DE0E /* README.md */,
 				42CA6B8E1DE5252D0044DE0E /* NSDistributedNotificationCenter Example */,
 				42CA6BA51DE5252E0044DE0E /* NSDistributedNotificationCenter ExampleTests */,
 				42CA6BB01DE5252E0044DE0E /* NSDistributedNotificationCenter ExampleUITests */,
@@ -498,6 +500,7 @@
 				42CA6BB81DE5252E0044DE0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42CA6BB91DE5252E0044DE0E /* Build configuration list for PBXNativeTarget "NSDistributedNotificationCenter ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +509,7 @@
 				42CA6BBB1DE5252E0044DE0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42CA6BBC1DE5252E0044DE0E /* Build configuration list for PBXNativeTarget "NSDistributedNotificationCenter ExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +518,7 @@
 				42CA6BBE1DE5252E0044DE0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
