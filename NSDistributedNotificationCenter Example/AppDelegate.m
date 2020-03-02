@@ -38,7 +38,7 @@
     [[NSDistributedNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(distributedNotificationHandler:)
-     name:nil // e.g. AppleSelectedInputSourcesChangedNotification
+     name:[[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleIdentifierKey] // e.g. AppleSelectedInputSourcesChangedNotification
      object:nil];
 }
 
